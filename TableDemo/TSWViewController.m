@@ -7,8 +7,11 @@
 //
 
 #import "TSWViewController.h"
+#import "TSWTableData.h"
 
 @interface TSWViewController ()
+
+@property (strong, nonatomic) TSWTableData *tableData;
 
 @end
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.tableData = [[TSWTableData alloc] initWithStuff];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

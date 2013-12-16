@@ -21,6 +21,8 @@
 		AE3D7A6E185B4CAB00637E4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D7A50185B4CAB00637E4C /* UIKit.framework */; };
 		AE3D7A76185B4CAB00637E4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE3D7A74185B4CAB00637E4C /* InfoPlist.strings */; };
 		AE3D7A78185B4CAB00637E4C /* TableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D7A77185B4CAB00637E4C /* TableDemoTests.m */; };
+		AE3D7A83185B4D8000637E4C /* TSWTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D7A82185B4D8000637E4C /* TSWTableData.m */; };
+		AE3D7A86185B51B800637E4C /* TSWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D7A85185B51B800637E4C /* TSWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		AE3D7A73185B4CAB00637E4C /* TableDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AE3D7A75185B4CAB00637E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE3D7A77185B4CAB00637E4C /* TableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableDemoTests.m; sourceTree = "<group>"; };
+		AE3D7A81185B4D8000637E4C /* TSWTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWTableData.h; sourceTree = "<group>"; };
+		AE3D7A82185B4D8000637E4C /* TSWTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSWTableData.m; sourceTree = "<group>"; };
+		AE3D7A84185B51B800637E4C /* TSWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWTableViewController.h; sourceTree = "<group>"; };
+		AE3D7A85185B51B800637E4C /* TSWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		AE3D7A40185B4CAB00637E4C = {
 			isa = PBXGroup;
 			children = (
+				AE3D7A81185B4D8000637E4C /* TSWTableData.h */,
+				AE3D7A82185B4D8000637E4C /* TSWTableData.m */,
 				AE3D7A52185B4CAB00637E4C /* TableDemo */,
 				AE3D7A71185B4CAB00637E4C /* TableDemoTests */,
 				AE3D7A4B185B4CAB00637E4C /* Frameworks */,
@@ -115,6 +123,8 @@
 				AE3D7A5B185B4CAB00637E4C /* TSWAppDelegate.h */,
 				AE3D7A5C185B4CAB00637E4C /* TSWAppDelegate.m */,
 				AE3D7A5E185B4CAB00637E4C /* Main.storyboard */,
+				AE3D7A84185B51B800637E4C /* TSWTableViewController.h */,
+				AE3D7A85185B51B800637E4C /* TSWTableViewController.m */,
 				AE3D7A61185B4CAB00637E4C /* TSWViewController.h */,
 				AE3D7A62185B4CAB00637E4C /* TSWViewController.m */,
 				AE3D7A64185B4CAB00637E4C /* Images.xcassets */,
@@ -251,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3D7A59185B4CAB00637E4C /* main.m in Sources */,
+				AE3D7A86185B51B800637E4C /* TSWTableViewController.m in Sources */,
+				AE3D7A83185B4D8000637E4C /* TSWTableData.m in Sources */,
 				AE3D7A5D185B4CAB00637E4C /* TSWAppDelegate.m in Sources */,
 				AE3D7A63185B4CAB00637E4C /* TSWViewController.m in Sources */,
 			);

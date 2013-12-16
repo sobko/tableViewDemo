@@ -1,5 +1,5 @@
 //
-//  TSWViewController.h
+//  TSWTableViewController.h
 //  TableDemo
 //
 //  Created by Mark Sobkowicz on 12/13/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TSWViewController : UIViewController
+@interface TSWTableViewController : UITableViewController
 
 
 @end
